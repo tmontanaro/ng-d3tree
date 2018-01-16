@@ -20,7 +20,7 @@ Slow Start (install original Directive and them make changes
 
 1. 
 ```bash
-bower install --save ng-d3tree-drag-drop-collapse
+bower install --save ng-d3tree
 ```
 2. Copy the content of the file `src/ng-d3tree.js` in the corresponding file in your project
 
