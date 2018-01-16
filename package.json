@@ -1,6 +1,6 @@
 {
   "name": "ng-d3tree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "angular directive for d3.js tree",
   "main": "main/ng-d3tree.js",
   "dependencies": {
@@ -25,6 +25,9 @@
     "tree"
   ],
   "author": "Lei Xu <komushi@gmail.com>",
+  "contributors": [
+    "Teodoro Montanaro <teoteoteoteo@virgilio.it> (https://www.rosario49.it/teodoro_montanaro)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/komushi/ng-d3tree/issues"

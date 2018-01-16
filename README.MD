@@ -74,3 +74,8 @@ app.controller("treeCtrl", ['$scope', '$http', function($scope, $http) {
 </body>
 </html>
 ```
+
+### Drag and drop, collapsible d3.js Tree
+
+In the last version we added the support for Drag and drop, and collapsible trees.
+To use it, you can simply substitute ``drag-and-drop-collapsible`` to ``reingold-tilford-tree`` in the html file.
