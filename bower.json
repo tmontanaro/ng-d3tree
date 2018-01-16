@@ -1,11 +1,11 @@
 {
-  "name": "ng-d3tree",
-  "version": "0.1.0",
-  "homepage": "https://github.com/komushi/ng-d3tree",
+  "name": "ng-d3tree-drag-drop-collapse",
+  "version": "0.1.1",
+  "homepage": "https://github.com/tmontanaro/ng-d3tree.git",
   "authors": [
     "Lei Xu <komushi@gmail.com>"
   ],
-  "description": "angular directive for d3.js tree",
+  "description": "angular directive for d3.js tree with Drag and drop and collapsible tree",
   "main": "main/ng-d3tree.js",
   "keywords": [
     "angular",

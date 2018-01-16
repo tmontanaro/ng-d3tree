@@ -1,33 +1,32 @@
-# Angular Directives for d3 tree and graph
+# Angular Directives for d3 tree and graph with the addition of drag and drop, and collapsible d3.js Tree
 
-![Tree](https://raw.githubusercontent.com/komushi/ng-d3tree/master/image/tree.png)
-
-----------
-Local Demo
--------------
-###Download & Installation
-```
-git clone https://github.com/komushi/ng-d3tree.git
-cd ng-d3tree/examples
-live-server
-```
-###Access the local server
-http://localhost:8080
-
-----------
-Online Demo
--------------
-
-###Access plunker
-http://plnkr.co/edit/hATiUn
+This is a fork of the [ng-d3tree](https://github.com/komushi/ng-d3tree) repository obtaining by introducing and adapting the code taken here:
+[Drag and drop, collapsible d3.js Tree with 50,000 nodes](http://bl.ocks.org/robschmuecker/7926762)
 
 ----------
 Quick Start
 -------------
 ### Install via Bower
+
 ```bash
-bower install --save ng-d3tree
+bower install --save ng-d3tree-drag-drop-collapse
 ```
+
+
+----------
+Slow Start (install original Directive and them make changes
+-------------
+### Install via Bower
+
+1. 
+```bash
+bower install --save ng-d3tree-drag-drop-collapse
+```
+2. Copy the content of the file `src/ng-d3tree.js` in the corresponding file in your project
+
+3. Copy the content of the file `src/css/ng-d3tree.css` in the corresponding file in your project
+
+4. Use these 2 files instead of the minified versions
 
 ### Usage
 ```
@@ -61,13 +60,13 @@ app.controller("treeCtrl", ['$scope', '$http', function($scope, $http) {
 </script>
 
 <div ng-controller="treeCtrl">
-  <h2>Reingold-Tilford Tree Static</h2>
-  <reingold-tilford-tree
+  <h2>Reingold-Tilford Tree With Drag and Drop, and Collapsible tree</h2>
+  <drag-and-drop-collapsible
     data="d3json"
     width="550"
     height="500"
     json-path="">
-  </reingold-tilford-tree>
+  </drag-and-drop-collapsible>
 </div>
 
 
@@ -75,7 +74,3 @@ app.controller("treeCtrl", ['$scope', '$http', function($scope, $http) {
 </html>
 ```
 
-### Drag and drop, collapsible d3.js Tree
-
-In the last version we added the support for Drag and drop, and collapsible trees.
-To use it, you can simply substitute ``drag-and-drop-collapsible`` to ``reingold-tilford-tree`` in the html file.
