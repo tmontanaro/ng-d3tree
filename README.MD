@@ -3,6 +3,14 @@
 This is a fork of the [ng-d3tree](https://github.com/komushi/ng-d3tree) repository obtaining by introducing and adapting the code taken here:
 [Drag and drop, collapsible d3.js Tree with 50,000 nodes](http://bl.ocks.org/robschmuecker/7926762)
 
+
+----------
+Online Demo
+-------------
+
+###Access plunker
+http://plnkr.co/edit/wW7a3L
+
 ----------
 Quick Start
 -------------
