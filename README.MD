@@ -8,8 +8,8 @@ This is a fork of the [ng-d3tree](https://github.com/komushi/ng-d3tree) reposito
 Online Demo
 -------------
 
-###Access plunker
-http://plnkr.co/edit/wW7a3L
+### Access plunker
+[http://plnkr.co/edit/wW7a3L](http://plnkr.co/edit/wW7a3L)
 
 ----------
 Quick Start
