@@ -1,6 +1,6 @@
 # Angular Directives for d3 tree and graph with the addition of drag and drop, and collapsible d3.js Tree
 
-This is a fork of the [ng-d3tree](https://github.com/komushi/ng-d3tree) repository obtaining by introducing and adapting the code taken here:
+This is a fork of the [ng-d3tree](https://github.com/komushi/ng-d3tree) repository obtained by introducing and adapting the code taken here:
 [Drag and drop, collapsible d3.js Tree with 50,000 nodes](http://bl.ocks.org/robschmuecker/7926762)
 
 
