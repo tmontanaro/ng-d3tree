@@ -46,9 +46,9 @@ bower install --save ng-d3tree
 
     <script src="https://code.angularjs.org/1.5.5/angular.js" data-semver="1.5.5" data-require="angularjs@1.5.5"></script>
     <script data-require="d3@*" data-semver="3.5.3" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
-    <script type="text/javascript" src="https://rawgit.com/komushi/ng-d3tree/master/src/ng-d3tree.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/tmontanaro/ng-d3tree/master/src/ng-d3tree.js"></script>
 
-    <link rel="stylesheet" href="https://rawgit.com/komushi/ng-d3tree/master/src/css/ng-d3tree.css" />
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/tmontanaro/ng-d3tree/master/src/css/ng-d3tree.css" />
 
 </head>
 
@@ -59,7 +59,7 @@ bower install --save ng-d3tree
 var app = angular.module("d3treeApp", ['ngD3tree']); 
 app.controller("treeCtrl", ['$scope', '$http', function($scope, $http) {
 
-  $http.get('data/data2.json')
+  $http.get('https://raw.githubusercontent.com/tmontanaro/ng-d3tree/master/examples/data/data1.json')
        .success(function(res){
           $scope.d3json = res;
         });
