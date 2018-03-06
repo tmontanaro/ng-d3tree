@@ -1,3 +1,13 @@
+/**
+ * Angular Directives for d3 tree and graph with the addition of drag and drop, and collapsible d3.js Tree
+ * 
+ * link: https://github.com/tmontanaro/ng-d3tree
+ * forked from https://github.com/komushi/ng-d3tree
+ * 
+ * @author <a href="mailto:montanaro@ismb.it">Teodoro Montanaro</a>
+ * 
+ */
+
 ( function () {
 	'use strict';
 
